@@ -1,5 +1,5 @@
 
-urlstring='https://priceprediction.herokuapp.com/readData'
+urlstring='https://group3price.herokuapp.com/readData'
 //urlstring='http://127.0.0.1:5000/readData'
 Plotly.d3.json(urlstring, function(err, rows){
     console.log(rows);
